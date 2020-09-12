@@ -13,10 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Initial Gridsome create">
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
+    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Add Prettier config, name the project and include the Skatenet logo">
+      <change beforePath="$PROJECT_DIR$/.idea/gridsome-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gridsome-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -63,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599697678084</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Prettier config, name the project and include the Skatenet logo">
+      <created>1599877289674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599877289674</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,17 +93,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Gridsome create" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Gridsome create" />
+    <MESSAGE value="Add Prettier config, name the project and include the Skatenet logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Prettier config, name the project and include the Skatenet logo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="186" key="SettingsEditor" timestamp="1599697634511">
+    <state width="840" height="258" key="GridCell.Tab.0.bottom" timestamp="1599877352845">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="341" y="186" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599697634511" />
-    <state x="440" y="271" key="Vcs.Push.Dialog.v2" timestamp="1599697687779">
+    <state width="840" height="258" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599877352845" />
+    <state width="840" height="258" key="GridCell.Tab.0.center" timestamp="1599877352844">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1599697687779" />
+    <state width="840" height="258" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599877352844" />
+    <state width="840" height="258" key="GridCell.Tab.0.left" timestamp="1599877352844">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599877352844" />
+    <state width="840" height="258" key="GridCell.Tab.0.right" timestamp="1599877352844">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599877352844" />
+    <state x="341" y="186" key="SettingsEditor" timestamp="1599877580976">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="186" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599877580976" />
+    <state x="440" y="271" key="Vcs.Push.Dialog.v2" timestamp="1599877292525">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1599877292525" />
     <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1599697647828">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
