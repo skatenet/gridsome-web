@@ -3,6 +3,7 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <!--<g-image alt="Skatenet – Skateboard Systems Corporation" src="skatenet-logo.svg" />-->
     <img
+      class="logo"
       alt="Skatenet – Skateboard Systems Corporation"
       src="skatenet-logo.svg"
     />
@@ -17,8 +18,9 @@ export default {
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
+<style scoped>
+.logo {
+  padding-top: 16px;
+  padding-bottom: 30vh;
 }
 </style>
