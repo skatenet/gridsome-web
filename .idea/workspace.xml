@@ -13,18 +13,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Update Prettier config">
+    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Add tailwind plugin and set the layout of the logo on the home page">
+      <change afterPath="$PROJECT_DIR$/src/admin/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -81,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599877798661</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add tailwind plugin and set the layout of the logo on the home page">
+      <created>1599879347186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599879347186</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,40 +117,46 @@
     <MESSAGE value="Initial Gridsome create" />
     <MESSAGE value="Add Prettier config, name the project and include the Skatenet logo" />
     <MESSAGE value="Update Prettier config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Prettier config" />
+    <MESSAGE value="Add tailwind plugin and set the layout of the logo on the home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tailwind plugin and set the layout of the logo on the home page" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="840" height="258" key="GridCell.Tab.0.bottom" timestamp="1599877895947">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1280" height="258" key="GridCell.Tab.0.bottom" timestamp="1599966395255">
+      <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="840" height="258" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599877895947" />
-    <state width="840" height="258" key="GridCell.Tab.0.center" timestamp="1599877895947">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1280" height="258" key="GridCell.Tab.0.bottom/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1599966395255" />
+    <state width="840" height="258" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599879371256" />
+    <state width="1280" height="258" key="GridCell.Tab.0.center" timestamp="1599966395254">
+      <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="840" height="258" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599877895947" />
-    <state width="840" height="258" key="GridCell.Tab.0.left" timestamp="1599877895946">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1280" height="258" key="GridCell.Tab.0.center/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1599966395254" />
+    <state width="840" height="258" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599879371255" />
+    <state width="1280" height="258" key="GridCell.Tab.0.left" timestamp="1599966395252">
+      <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="840" height="258" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599877895946" />
-    <state width="840" height="258" key="GridCell.Tab.0.right" timestamp="1599877895947">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1280" height="258" key="GridCell.Tab.0.left/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1599966395252" />
+    <state width="840" height="258" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599879371255" />
+    <state width="1280" height="258" key="GridCell.Tab.0.right" timestamp="1599966395255">
+      <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="840" height="258" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599877895947" />
+    <state width="1280" height="258" key="GridCell.Tab.0.right/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1599966395255" />
+    <state width="840" height="258" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599879371256" />
     <state x="341" y="186" key="SettingsEditor" timestamp="1599877580976">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="186" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599877580976" />
-    <state x="440" y="271" key="Vcs.Push.Dialog.v2" timestamp="1599877292525">
+    <state x="440" y="271" key="Vcs.Push.Dialog.v2" timestamp="1599879351590">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1599877292525" />
+    <state x="440" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1599879351590" />
     <state x="962" y="275" width="596" height="522" key="find.popup" timestamp="1599878907050">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="962" y="275" width="596" height="522" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1599878907050" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1599877840522">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="770" y="372" width="1021" height="1039" key="search.everywhere.popup" timestamp="1599966531621">
+      <screen x="0" y="23" width="2560" height="1577" />
     </state>
+    <state x="770" y="372" width="1021" height="1039" key="search.everywhere.popup/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1599966531621" />
     <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1599877840522" />
   </component>
 </project>
