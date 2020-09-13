@@ -10,16 +10,5 @@ module.exports = {
     {
       use: 'gridsome-plugin-tailwindcss',
     },
-    {
-      use: `gridsome-plugin-netlify-cms`,
-      // options: {
-      //   modulePath: `src/cms/index.js`,
-      //   configPath: `src/cms/config.yml`,
-      //   htmlPath: `src/cms/index.html`,
-      //   publicPath: `/cms`,
-      //   htmlTitle: `My CMS`,
-      //   enableIdentityWidget: false,
-      // },
-    },
   ],
 }
