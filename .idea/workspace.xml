@@ -13,12 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Add more required CMS config">
-      <change beforePath="$PROJECT_DIR$/.idea/gridsome-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gridsome-web.iml" afterDir="false" />
+    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Remove Netlify CMS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/config.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599696121470</updated>
       <workItem from="1599696123017" duration="899000" />
-      <workItem from="1600017561980" duration="104000" />
+      <workItem from="1600017561980" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Gridsome create">
       <created>1599697678084</created>
@@ -118,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600017408591</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Remove Netlify CMS">
+      <created>1600017693025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600017693025</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +149,8 @@
     <MESSAGE value="Install Netlify CMS" />
     <MESSAGE value="Add required Netlify CMS config I forgot to add" />
     <MESSAGE value="Add more required CMS config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more required CMS config" />
+    <MESSAGE value="Remove Netlify CMS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Netlify CMS" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1280" height="258" key="GridCell.Tab.0.bottom" timestamp="1600017540533">
@@ -175,10 +181,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="186" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599877580976" />
-    <state x="670" y="404" key="Vcs.Push.Dialog.v2" timestamp="1599969621116">
+    <state x="670" y="404" key="Vcs.Push.Dialog.v2" timestamp="1600017695282">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state x="670" y="404" key="Vcs.Push.Dialog.v2/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1599969621116" />
+    <state x="670" y="404" key="Vcs.Push.Dialog.v2/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1600017695282" />
     <state x="440" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1599879351590" />
     <state x="962" y="275" width="596" height="522" key="find.popup" timestamp="1599878907050">
       <screen x="0" y="23" width="1680" height="1027" />

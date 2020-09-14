@@ -10,5 +10,15 @@ module.exports = {
     {
       use: 'gridsome-plugin-tailwindcss',
     },
+    {
+      use: '@gridsome/source-contentful',
+      options: {
+        space: '92zv9nv75uju', // required
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN, // required
+        host: 'cdn.contentful.com',
+        environment: 'master',
+        typeName: 'Contentful',
+      },
+    },
   ],
 }
