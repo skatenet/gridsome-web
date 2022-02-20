@@ -13,7 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Add overall structure to the Default layout, header, main, footer" />
+    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Remove Tailwind" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +117,7 @@
       <workItem from="1645296304534" duration="554000" />
       <workItem from="1645296922712" duration="2676000" />
       <workItem from="1645311413555" duration="3565000" />
-      <workItem from="1645318710933" duration="6868000" />
+      <workItem from="1645318710933" duration="7769000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Gridsome create">
       <created>1599697678084</created>
@@ -245,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645388500937</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add overall structure to the Default layout, header, main, footer">
+      <created>1645388587821</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1645388587821</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Remove Tailwind">
+      <created>1645389453040</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1645389453040</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +295,8 @@
     <MESSAGE value="Add GraphQL plugin config file" />
     <MESSAGE value="Update the site name to be Skatenet" />
     <MESSAGE value="Add overall structure to the Default layout, header, main, footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add overall structure to the Default layout, header, main, footer" />
+    <MESSAGE value="Remove Tailwind" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Tailwind" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
