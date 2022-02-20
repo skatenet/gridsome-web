@@ -1,11 +1,10 @@
 <template>
   <Layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <!--<g-image alt="Skatenet – Skateboard Systems Corporation" src="skatenet-logo.svg" />-->
-    <img
+    <g-image
       class="logo"
       alt="Skatenet – Skateboard Systems Corporation"
-      src="skatenet-logo.svg"
+      src="~/assets/skatenet-corp-logo.svg"
     />
   </Layout>
 </template>
@@ -20,7 +19,6 @@ export default {
 
 <style scoped>
 .logo {
-  padding-top: 16px;
-  padding-bottom: 30vh;
+  padding: 16px 2rem 30vh;
 }
 </style>
