@@ -13,10 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Remove Netlify CMS">
+    <list default="true" id="432972c1-0cfc-4b8f-9fa7-2e9009818b7b" name="Default Changelist" comment="Add, and configure, Contentful source plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/skatenet-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/skatenet-logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="frttxsjc" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1hIQRrvbfwuPfAcTYbk6aHAI4S9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -43,18 +52,43 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.develop" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,7 +99,12 @@
       <option name="presentableId" value="Default" />
       <updated>1599696121470</updated>
       <workItem from="1599696123017" duration="899000" />
-      <workItem from="1600017561980" duration="801000" />
+      <workItem from="1600017561980" duration="836000" />
+      <workItem from="1600550835942" duration="257000" />
+      <workItem from="1600700260786" duration="16000" />
+      <workItem from="1645296304534" duration="554000" />
+      <workItem from="1645296922712" duration="2676000" />
+      <workItem from="1645311413555" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Gridsome create">
       <created>1599697678084</created>
@@ -123,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600017693025</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add, and configure, Contentful source plugin">
+      <created>1600094689258</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600094689258</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +185,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Gridsome create" />
@@ -150,50 +195,11 @@
     <MESSAGE value="Add required Netlify CMS config I forgot to add" />
     <MESSAGE value="Add more required CMS config" />
     <MESSAGE value="Remove Netlify CMS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Netlify CMS" />
+    <MESSAGE value="Add, and configure, Contentful source plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add, and configure, Contentful source plugin" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1280" height="258" key="GridCell.Tab.0.bottom" timestamp="1600017540533">
-      <screen x="0" y="23" width="2560" height="1577" />
-    </state>
-    <state width="1280" height="258" key="GridCell.Tab.0.bottom/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1600017540533" />
-    <state width="840" height="258" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599879371256" />
-    <state width="1280" height="258" key="GridCell.Tab.0.center" timestamp="1600017540533">
-      <screen x="0" y="23" width="2560" height="1577" />
-    </state>
-    <state width="1280" height="258" key="GridCell.Tab.0.center/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1600017540533" />
-    <state width="840" height="258" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599879371255" />
-    <state width="1280" height="258" key="GridCell.Tab.0.left" timestamp="1600017540532">
-      <screen x="0" y="23" width="2560" height="1577" />
-    </state>
-    <state width="1280" height="258" key="GridCell.Tab.0.left/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1600017540532" />
-    <state width="840" height="258" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599879371255" />
-    <state width="1280" height="258" key="GridCell.Tab.0.right" timestamp="1600017540533">
-      <screen x="0" y="23" width="2560" height="1577" />
-    </state>
-    <state width="1280" height="258" key="GridCell.Tab.0.right/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1600017540533" />
-    <state width="840" height="258" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599879371256" />
-    <state x="1712" y="454" key="RollbackChangesDialog" timestamp="1599967555271">
-      <screen x="0" y="23" width="2560" height="1577" />
-    </state>
-    <state x="1712" y="454" key="RollbackChangesDialog/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1599967555271" />
-    <state x="341" y="186" key="SettingsEditor" timestamp="1599877580976">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="341" y="186" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599877580976" />
-    <state x="670" y="404" key="Vcs.Push.Dialog.v2" timestamp="1600017695282">
-      <screen x="0" y="23" width="2560" height="1577" />
-    </state>
-    <state x="670" y="404" key="Vcs.Push.Dialog.v2/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1600017695282" />
-    <state x="440" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1599879351590" />
-    <state x="962" y="275" width="596" height="522" key="find.popup" timestamp="1599878907050">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="962" y="275" width="596" height="522" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1599878907050" />
-    <state x="770" y="372" width="1021" height="1039" key="search.everywhere.popup" timestamp="1599966531621">
-      <screen x="0" y="23" width="2560" height="1577" />
-    </state>
-    <state x="770" y="372" width="1021" height="1039" key="search.everywhere.popup/-1680.573.1680.1027/0.23.2560.1577/2560.23.1920.1057@0.23.2560.1577" timestamp="1599966531621" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1599877840522" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
