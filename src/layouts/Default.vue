@@ -5,9 +5,8 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/products/">Products</g-link>
-        <!--<g-link class="nav__link" to="/about/">About</g-link>-->
+        <g-link class="p-button p-button-link" to="/">Home</g-link>
+        <g-link class="p-button p-button-link">Products</g-link>
       </nav>
     </header>
 
@@ -16,7 +15,7 @@
     </main>
 
     <!--Footer-->
-    <footer>
+    <footer class="p-d-flex">
       <h4 class="h-3">Social</h4>
       <ul>
         <li v-for="account in $static.socialAccounts.edges" :key="account.id">
@@ -46,10 +45,12 @@ query {
 
 <style>
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif;
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--text-color);
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  background-color: var(--surface-a);
 }
 </style>

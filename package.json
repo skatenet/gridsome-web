@@ -8,7 +8,10 @@
   },
   "dependencies": {
     "@gridsome/source-contentful": "^0.5.3",
-    "gridsome": "^0.7.23"
+    "gridsome": "^0.7.23",
+    "primeflex": "2.0.0",
+    "primeicons": "^5.0.0",
+    "primevue": "2.9.0"
   },
   "devDependencies": {
     "husky": "^4.3.0",
