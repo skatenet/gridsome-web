@@ -3,7 +3,22 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 
+// Qui: https://github.com/Qvant-lab/qui
+import Qui from '@qvant/qui'
+import '@qvant/qui/dist/qui.css'
+
+// Font Awesome: https://fontawesome.com/docs/web/use-with/vue/
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+library.add(faTwitter, faInstagram)
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+// Setup all components
 export default function (Vue, { router, head, isClient }) {
+  // Font Awesome Component
+  Vue.component('font-awesome-icon', FontAwesomeIcon)
+  // Qui
+  Vue.use(Qui)
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 }

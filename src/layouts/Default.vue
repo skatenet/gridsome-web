@@ -5,9 +5,9 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/products/">Products</g-link>
-        <!--<g-link class="nav__link" to="/about/">About</g-link>-->
+        <q-button @click="$router.push('/')">Home</q-button>
+        <q-button @click="$router.push('/products')">Products</q-button>
+        <!--<g-link to="/about/">About</g-link>-->
       </nav>
     </header>
 
@@ -20,14 +20,19 @@
       <h4 class="h-3">Social</h4>
       <ul>
         <li v-for="account in $static.socialAccounts.edges" :key="account.id">
-          <a :href="account.node.url">{{ account.node.name }}</a>
+          <a :href="account.node.url">
+            <font-awesome-icon
+              size="3x"
+              :icon="`fa-brands fa-${account.node.name.toLowerCase()}`"
+            />
+          </a>
         </li>
       </ul>
     </footer>
   </div>
 </template>
 
-<static-query type="graphql">
+<static-query>
 query {
   metadata {
     siteName
