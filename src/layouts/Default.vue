@@ -5,9 +5,7 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <q-button @click="$router.push('/')">Home</q-button>
-        <q-button @click="$router.push('/products')">Products</q-button>
-        <!--<g-link to="/about/">About</g-link>-->
+        <g-link to="/about/">About</g-link>
       </nav>
     </header>
 
