@@ -8,6 +8,19 @@ module.exports = {
   siteName: 'Skatenet',
   plugins: [
     {
+      use: 'gridsome-plugin-tailwindcss',
+      /**
+       * These are the default options.
+
+       options: {
+        tailwindConfig: './tailwind.config.js',
+        presetEnvConfig: {},
+        shouldImport: false,
+        shouldTimeTravel: false
+      }
+       */
+    },
+    {
       use: '@gridsome/source-contentful',
       options: {
         space: '92zv9nv75uju', // required
